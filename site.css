@@ -29,7 +29,7 @@ main h1{
   text-align: center;
   padding: 25px;
   border-bottom: 10px solid #000;
-
+  text-transform: uppercase;
 }
 
 
@@ -59,7 +59,7 @@ blockquote{
   
 
 }
-aside{
+.navegacao-site{
   background-color: #3C1D3D;
   color: #F2FFFC;
   padding: 20px;
@@ -71,6 +71,11 @@ aside h1{
 }
 aside ul{
   list-style-type: none;
+  
+}
+.icones-sociais li{
+  display: inline-block;
+
 }
 
 aside a{
@@ -78,8 +83,53 @@ aside a{
   color:inherit;
 }
 
-footer{
+.rodape{
   background-color:#000;
   color: #F2FFFC;
   padding: 20px;
+}
+article {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+.estilo-Leia-mais{
+
+  color: #FFF;
+  background-color: #3C1D3D;
+
+  display: block;
+  font-size: 15px;
+  text-transform: uppercase;
+  
+  margin: 10px 0px;
+  padding: 5px 0px;
+  
+  text-align: center;
+  text-decoration: none;
+  
+}
+.estilos-navegacao_link{
+  text-transform: lowercase;
+}
+ 
+
+.icones-sociais a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+ text-indent: 9999px;
+ /* font-size: 0px;
+ color: transparent; */
+}
+.icone-github a {
+  background-image: url( github.png);
+  
+}
+.icone-twitter a {
+  background-image: url(twitter.png);
+}
+
+.icone-linkedin a {
+  background-image: url( /linkedin.png);
 }
