@@ -163,3 +163,33 @@ cite {
   float: right;
   font-style: italic;
 }
+
+
+.figuras{
+  border: 8px solid black;
+  background-color: #FAFFFC;
+  padding: 16px;
+  margin: 16px;
+  width: 320px;
+  box-sizing: border-box;
+
+}
+
+.figuras img{
+  box-sizing: inherit;
+  width: 100%;
+}
+
+
+.figuras_caption{
+  text-align: left;
+}
+
+.direito{
+  float: right;
+}
+
+.esquerdo{
+  float: left;
+}
+
